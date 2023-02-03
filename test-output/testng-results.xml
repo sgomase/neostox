@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC validateACBalance failed]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from property file]]>
+    </line>
+    <line>
+      <![CDATA[data ishttps://neostox.com/]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Entering passward]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for3000ms]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on popUpButton]]>
+    </line>
+    <line>
+      <![CDATA[getting actual user name]]>
+    </line>
+    <line>
+      <![CDATA[Actual user name is---->Hi Sarika Gomase]]>
+    </line>
+    <line>
+      <![CDATA[Logging Out From NeoStox]]>
+    </line>
+    <line>
+      <![CDATA[TC validateUserName passed]]>
+    </line>
+    <line>
+      <![CDATA[Closing application]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from property file]]>
+    </line>
+    <line>
+      <![CDATA[data ishttps://neostox.com/]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Entering passward]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for3000ms]]>
+    </line>
+    <line>
+      <![CDATA[TC validateUserName failed]]>
+    </line>
+    <line>
+      <![CDATA[taking Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[screenshot taken and saved atC:\Users\Mangesh\Pictures\Screenshots\validateUserName.png]]>
+    </line>
+    <line>
+      <![CDATA[Closing application]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from property file]]>
+    </line>
+    <line>
+      <![CDATA[data ishttps://neostox.com/]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Entering passward]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for3000ms]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on popUpButton]]>
+    </line>
+    <line>
+      <![CDATA[getting actual user name]]>
+    </line>
+    <line>
+      <![CDATA[Actual user name is---->Hi Pooja Talekar]]>
+    </line>
+    <line>
+      <![CDATA[Logging Out From NeoStox]]>
+    </line>
+    <line>
+      <![CDATA[TC validateUserName passed]]>
+    </line>
+    <line>
+      <![CDATA[Closing application]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-16T16:17:50 IST" name="Default suite" finished-at="2023-01-16T16:18:50 IST" duration-ms="60811">
+    <groups>
+    </groups>
+    <test started-at="2023-01-16T16:17:50 IST" name="Default test" finished-at="2023-01-16T16:18:50 IST" duration-ms="60811">
+      <class name="dataProvider.ValidateNeoStoxUserNameUsingPropertyFile">
+        <test-method signature="validateACBalance(java.lang.String,java.lang.String)[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:17:50 IST" name="validateACBalance" finished-at="2023-01-16T16:17:50 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void dataProvider.ValidateNeoStoxUserNameUsingPropertyFile.validateACBalance(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : loginDetailsForValidateAccountBalance]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void dataProvider.ValidateNeoStoxUserNameUsingPropertyFile.validateACBalance(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : loginDetailsForValidateAccountBalance
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:561)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateACBalance -->
+        <test-method is-config="true" signature="launchNeoStoxApp()[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:17:50 IST" name="launchNeoStoxApp" finished-at="2023-01-16T16:17:55 IST" duration-ms="5587" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading data from property file]]>
+            </line>
+            <line>
+              <![CDATA[data ishttps://neostox.com/]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeoStoxApp -->
+        <test-method signature="validateUserName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:17:55 IST" name="validateUserName" data-provider="loginDetailsforValidateUserName" finished-at="2023-01-16T16:18:08 IST" duration-ms="12278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8329195905]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7847]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi Sarika Gomase]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on signIn button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on signIn button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Entering passward]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for3000ms]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on popUpButton]]>
+            </line>
+            <line>
+              <![CDATA[getting actual user name]]>
+            </line>
+            <line>
+              <![CDATA[Actual user name is---->Hi Sarika Gomase]]>
+            </line>
+            <line>
+              <![CDATA[Logging Out From NeoStox]]>
+            </line>
+            <line>
+              <![CDATA[TC validateUserName passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:18:08 IST" name="logOutFromNeoStox" finished-at="2023-01-16T16:18:09 IST" duration-ms="1141" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromNeoStox -->
+        <test-method is-config="true" signature="launchNeoStoxApp()[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:18:09 IST" name="launchNeoStoxApp" finished-at="2023-01-16T16:18:13 IST" duration-ms="4155" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading data from property file]]>
+            </line>
+            <line>
+              <![CDATA[data ishttps://neostox.com/]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeoStoxApp -->
+        <test-method signature="validateUserName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:18:13 IST" name="validateUserName" data-provider="loginDetailsforValidateUserName" finished-at="2023-01-16T16:18:25 IST" duration-ms="11847" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9421357890]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9839]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi Yogendra Joshi]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='OK'])[2]"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f55811e24be4582df156969b2300a700, findElement {using=xpath, value=(//a[text()='OK'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Mangesh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51368/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f55811e24be4582df156969b2300a700]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='OK'])[2]"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f55811e24be4582df156969b2300a700, findElement {using=xpath, value=(//a[text()='OK'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Mangesh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51368/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f55811e24be4582df156969b2300a700
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at neoStoxPOMClass.NeoStoxDashBoardPage.handlePopUp(NeoStoxDashBoardPage.java:34)
+at dataProvider.ValidateNeoStoxUserNameUsingPropertyFile.validateUserName(ValidateNeoStoxUserNameUsingPropertyFile.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on signIn button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on signIn button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Entering passward]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for3000ms]]>
+            </line>
+            <line>
+              <![CDATA[TC validateUserName failed]]>
+            </line>
+            <line>
+              <![CDATA[taking Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[screenshot taken and saved atC:\Users\Mangesh\Pictures\Screenshots\validateUserName.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:18:25 IST" name="logOutFromNeoStox" finished-at="2023-01-16T16:18:26 IST" duration-ms="1150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromNeoStox -->
+        <test-method is-config="true" signature="launchNeoStoxApp()[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:18:26 IST" name="launchNeoStoxApp" finished-at="2023-01-16T16:18:31 IST" duration-ms="4903" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading data from property file]]>
+            </line>
+            <line>
+              <![CDATA[data ishttps://neostox.com/]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeoStoxApp -->
+        <test-method signature="validateUserName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:18:31 IST" name="validateUserName" data-provider="loginDetailsforValidateUserName" finished-at="2023-01-16T16:18:49 IST" duration-ms="18455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8805568380]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2303]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi Pooja Talekar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on signIn button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on signIn button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Entering passward]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for3000ms]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on popUpButton]]>
+            </line>
+            <line>
+              <![CDATA[getting actual user name]]>
+            </line>
+            <line>
+              <![CDATA[Actual user name is---->Hi Pooja Talekar]]>
+            </line>
+            <line>
+              <![CDATA[Logging Out From NeoStox]]>
+            </line>
+            <line>
+              <![CDATA[TC validateUserName passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:dataProvider.ValidateNeoStoxUserNameUsingPropertyFile@72d1ad2e]" started-at="2023-01-16T16:18:49 IST" name="logOutFromNeoStox" finished-at="2023-01-16T16:18:50 IST" duration-ms="1112" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromNeoStox -->
+      </class> <!-- dataProvider.ValidateNeoStoxUserNameUsingPropertyFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
