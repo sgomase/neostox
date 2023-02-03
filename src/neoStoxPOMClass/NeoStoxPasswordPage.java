@@ -20,6 +20,7 @@ public class NeoStoxPasswordPage
  public void enterPassword(String password)
  {
 	passwordField.sendKeys(password);
+	
 	Reporter.log("Entering passward",true);
  }
  
