@@ -23,7 +23,7 @@ public class Base1
 	driver.get(Utility.readDataFromPropertyFile("url"));
 	Utility.implicitWait(1000, driver);
    Reporter.log("launching Browser",true);
-   
+   //comitt
 
 }
 }
